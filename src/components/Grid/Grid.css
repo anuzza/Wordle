@@ -1,0 +1,39 @@
+.Grid {
+  margin: 70px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.GridRow {
+  display: flex;
+  gap: 5px;
+}
+
+.Box {
+  width: 55px;
+  height: 55px;
+  border: solid 1px #d3d6da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-weight: bolder;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+.correct {
+  color: white;
+  background-color: green;
+}
+
+.contains {
+  color: white;
+  background-color: rgb(219, 179, 20);
+}
+
+.letter {
+  color: white;
+  background-color: #d3d6da;
+}
